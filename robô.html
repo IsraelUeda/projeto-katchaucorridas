@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/thunderbolt.ico">
+    <title>Katchau Website</title>
+    <link rel="stylesheet" href="robô.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">KATCHAU</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="kat.html" class="navbar__links">+Katchau</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projeto.html" class="navbar__links">Projeto</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Sign up</a>
+                </li>
+        
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Corpo -->
+        <div class="main">
+            <div class="main__container">
+                <div class="main_content">
+                    <h2>Robô seguidor de linha</h2>
+                    <p>Como construir o seu?</p>
+
+                <div class="main__img--container">
+                    <img src="images/pexels04.jpg" alt="arduíno" id="main__img">
+                    <h4 class="main__h4">Imagem tirada de: https://www.pexels.com/pt-br/</h4>
+                </div>
+                </div>
+                <!-- Texto -->
+                <div class="main_content--art">
+                    <p>
+                        Construir um robô seguidor de linhas com Arduino pode ser um projeto divertido e educativo. 
+                        Vamos listar os passos gerais para ajudá-lo a começar, bem como possíveis problemas e suas soluções:
+                    </p>
+                    <h2>Passo 1: Reúna os materiais</h2>
+                    <p>
+                        Você precisará dos seguintes materiais:
+                        Plataforma do robô (chassi ou estrutura).
+                        Placa Arduino (por exemplo, Arduino Uno).
+                        Sensores de linha infravermelhos (módulos TCRT5000 ou similares).
+                        Motores DC e rodas para a locomoção.
+                        Driver de motor (pode ser um L298N, L293D, ou um motor shield compatível com Arduino).
+                        Bateria ou fonte de alimentação para o robô.
+                        Fios, parafusos, porcas e suportes para montagem.
+                        Computador com o Arduino IDE instalado.                    
+                    </p>
+                    <h2>Passo 2: Montagem Mecânica</h2>
+                    <p>
+                        Monte a estrutura do robô, fixe os motores e as rodas, e certifique-se de que os sensores de linha estão posicionados adequadamente na parte inferior do robô para detectar a linha no chão.
+                    </p>
+                    <h2>Passo 3: Conexões Eletrônicas</h2>
+                    <p>
+                        Conecte os componentes eletrônicos de acordo com o esquema de conexão do seu driver de motor e dos sensores de linha ao Arduino. Geralmente, você precisará conectar os motores ao driver de motor, e os sensores de linha às portas de entrada/saída digital do Arduino.
+                    </p>
+                    <h2>Passo 4: Programação</h2>
+                    <p>
+                        Escreva o código para o Arduino no Arduino IDE. Você precisará programar o robô para ler os dados dos sensores de linha e controlar os motores para seguir a linha. Aqui está um exemplo simples de código para seguir uma linha preta em um fundo branco como, por exemplo:
+                    </p>
+                    <div class="main_content--art--img">
+                        <img src="images/printCode.png">
+                    </div>
+                    <h2>Passo 5: Teste e Ajustes</h2>
+                    <p>
+                        Carregue o código no Arduino e teste o robô em uma pista de teste com uma linha preta em um fundo branco. Você pode precisar ajustar os limiares de detecção dos sensores e a velocidade dos motores para obter o melhor desempenho.
+                    </p>
+                    <div>
+                    <h2>Possíveis Problemas e Soluções:</h2>
+                    <p>
+                        1. Calibração dos sensores: Os sensores de linha podem precisar de calibração para detectar corretamente a linha. Ajuste os limiares no código.
+                    </p>
+                    <p>
+                        2. Motores não funcionam corretamente: Verifique as conexões dos motores e do driver de motor. Certifique-se de que os motores estejam recebendo a alimentação correta.
+                    </p>
+                    <p>
+                        3. Robô não segue a linha corretamente: Ajuste a lógica de controle no código para melhorar o desempenho do robô.
+                    </p>
+                    <p>
+                        4. Problemas mecânicos: Certifique-se de que as rodas estejam em contato com o chão de maneira uniforme e que o chassi do robô esteja nivelado.
+                    </p>
+                    <p>
+                        5. Problemas de energia: Verifique se a fonte de alimentação do robô está fornecendo energia suficiente para todos os componentes.
+                    </p>
+                    </div>
+                    <p>
+                        Este é um projeto básico de um robô seguidor de linha, e você pode expandi-lo adicionando recursos como controle remoto, capacidade de evitar obstáculos, entre outros. Lembre-se de que a solução de problemas é uma parte importante do processo de construção de robôs, então esteja preparado para iterar e ajustar o projeto à medida que você avança.
+                    </p>
+
+                    <h4>Referências: https://br-arduino.org/
+                        Criando Robô Seguidor de Linha com Arduino. https://www.youtube.com/watch?v=OjdDcRlEti4&t=1581s
+                    </h4>
+                </div>
+            </div>
+        </div> 
+
+        <!-- Services section -->
+        <div class="services">
+            <h1>Veja também:</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <h2>Arduíno</h2>
+                    <p>O que é e como funciona?</p>
+                    <a  href="arduino.html"><button>Saiba mais</button></a>
+                </div>
+                <div class="services__card">
+                    <h2>Robô seguidor de linha</h2>
+                    <p>Como construir o seu?</p>
+                    <a href="robô.html"><button>Saiba mais</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link__wrapper">
+                    <div class="footer__link__items">
+                        <h2>Sobre nós</h2>
+                        <a href="/">Curso</a>
+                        <a href="/">Objetivos</a>
+                        <a href="/">Integrantes</a>
+                        <a href="/">Terms of service</a>
+                    </div>
+                    <div class="footer__link__items">
+                        <h2>Contato</h2>
+                        <a href="/">Github</a>
+                        <a href="/">Linkedin</a>
+                    </div>
+                </div>
+                <div class="footer__link__wrapper">
+                    <div class="footer__link__items">
+                        <h2>Vídeos</h2>
+                        <a href="/">Apresentação</a>
+                    </div>
+                    <div class="footer__link__items">
+                        <h2>Social media</h2>
+                        <a href="/">Youtube</a>
+                        <a href="/">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fas
+                        faa-gem"></i>KATCHAU</a>
+                    </div>
+                    <p class="website__right">© KATCHAU 2023. All right reserved.</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa--youtube"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa--github"></i>
+                        </a>    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
